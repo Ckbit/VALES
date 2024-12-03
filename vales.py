@@ -55,7 +55,7 @@ def buscar_status_sql(codigo_digitado):
 # Janela do menu principal
 def janela_menu():
     janela_menu_texto = [
-        [sg.Text(f'Mozinho lindo', font=('Helvetica', 16, 'bold'))],
+        [sg.Text(f'Name', font=('Helvetica', 16, 'bold'))],
     ]
     janela_menu = [
         [sg.Canvas(size=(104, 104), key='canvas', background_color='red'), sg.Column(janela_menu_texto)],
